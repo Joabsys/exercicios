@@ -1,0 +1,3 @@
+Union é um tipo de estrutura análoga ao struct mas todas as variáveis ocupam o mesmo espaço na
+memória. Usado para economizar memória. O tamanho total dessa estrutura é o tamanho da maior
+variável componente.

@@ -1,0 +1,4 @@
+Enum é um tipo de estrutura de dado aonde posso enumerar opções usando nomes. Esses nomes são
+significativos para o C e representam constantes com o valor numérico. Cada constante da enumeração
+tem um valor numérico e por padrão inicia com 0 e é incrementado para cada constante. Podemos alterar
+esses valores.

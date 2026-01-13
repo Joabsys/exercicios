@@ -1,0 +1,14 @@
+struct nometipo
+{
+   <tipo1> var1;
+   <tipo2> var2;
+   ...
+   <tipon> varn;
+} vstruct1,vstruct1;
+struct nometipo outravar;
+Nesse caso: 
+• nometipo: é o nome desse tipo struct, podemos declarar variáveis usando esse nome.
+• <tipos> vars; são as variáveis componente dessa struct
+• vstructs são variáveis do stipo struct nometipo
+• Na linha struct nometipo outrovar estamos declarando outra variavel do tipo struct nometipo que
+já foi definido.
