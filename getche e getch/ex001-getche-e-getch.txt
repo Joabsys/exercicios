@@ -1,0 +1,6 @@
+GETCH() e GETCHE() 
+Prof. Luiz Gustavo Almeida Martins    Pág.: 25/82 
+As  funções  getch()  e  getche()  retornam  o  caracter  pressionado.  A  função  getche()  imprime  o 
+caracter  na  tela  antes  de  retorná-lo,  enquanto  que  a  função  getch()  apenas  retorna  o  caracter 
+sem imprimi-lo. Ambas são definidas no arquivo de cabeçalho conio.h, portanto, não pertencem 
+ao padrão ANSI. A sintaxe destas funções é similar a da macro getchar().
