@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <string.h>
+FILE *fp;//
+int main()
+
+{
+   char nome; 
+fp=fopen("teste.txt","w");
+printf("Digite seu 1° nome\n");
+while(nome=getchar()!=EOF)
+{
+    putc(nome,fp);
+}
+fclose(fp);
+fp=fopen("teste.txt","r");
+while(nome=getc(fp)!=EOF)
+printf("%s",nome);
+fclose(fp);
+}
