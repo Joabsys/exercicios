@@ -1,0 +1,5 @@
+digitar o nome do programa depois seus argumentos
+ex:o programa Operacao_matemaica
+./operacao_matematica para chamar o progrma depois de compilado pelo gcc no prompt
+em seguida digitar o nome do programa e seus argumentos como abaixo:
+operacao_matematica 1 2
