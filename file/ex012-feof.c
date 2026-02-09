@@ -11,8 +11,7 @@ int main()
     printf("%d",i);
   }
 fclose(arquivo);
-arquivo=fopen("leitura.bin","r");
-fread(&i,sizeof(i),1,arquivo);
+arquivo=fopen("leitura.bin","rb");
 while(!feof(arquivo))// o feof verifica o fim do arquivo lido;
   {
 fread(&i,sizeof(i),1,arquivo);// arquivo sendo lido;
@@ -22,4 +21,3 @@ fread(&i,sizeof(i),1,arquivo);// arquivo sendo lido;
    fclose(arquivo);
    fclose(arquivo2);
 }
--
